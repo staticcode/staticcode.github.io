@@ -1,0 +1,8 @@
+.show-callout:hover .hidden-demo{display: block; position: absolute;}
+.show-callout{display: block; position: relative;margin: 0px auto;}
+
+.list_point{width: 300px;}
+
+.pre-leeds-string{margin-top: 15px;border-bottom: 1px solid #F7F4F4;padding-bottom: 5px;}
+
+.pre-leeds-string:last-child{border: none;}

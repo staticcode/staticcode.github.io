@@ -1,0 +1,15 @@
+.ui-autocomplete .ui-state-focus{
+	background: #8abb00;
+	color: #fff;
+	border: 0px solid #8abb00;
+	cursor: pointer;
+}
+.ui-autocomplete{
+	width: 753px;
+	border: 1px solid #8ABB00;
+}
+.ui-autocomplete .ui-corner-all{
+	display: block;
+	line-height: 20px;
+	padding: 3px 10px;
+}

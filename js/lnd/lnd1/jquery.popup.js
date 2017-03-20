@@ -1,0 +1,2 @@
+redhlpSettings={keys:[{name:"email",value:""}]};function confidentialPopup(){$('#confidentialPopup').css({'display':'block'});$('body').css("overflow","hidden");};function hidefidentialPopup(){$('#confidentialPopup').css({'display':'none'});$('body').css("overflow","auto");};function videoPopap(e){$(e).next('div.video-holder').show();}
+function closevideoPopap(e){$(e).closest('div.video-holder').hide();}

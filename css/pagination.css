@@ -1,0 +1,45 @@
+/*-----------------pagination-----------------*/
+.pagination{padding: 40px 0;text-align: center;}
+
+.pagination ul{padding: 0 1px;}
+
+.pagination li{display:inline-block;vertical-align: top; min-width: 20px; padding: 0 10px; height: 38px;margin: 0 0px 0 -1px; text-align: center;border:1px solid #d5d5d5;background: #fff;}
+
+.pagination li a{display: block; line-height: 38px; font-size: 15px; color: #5f6265; text-decoration: none;}
+
+.pagination li.active,.pagination li:hover{background: #f7f9f6;}
+
+.pagination li.active a,.pagination li:hover a{color: #106ca0;}
+
+.pagination li.previous,.pagination li.next{width: 39px; margin: 0 10px;border-radius: 2px;-moz-border-radius:2px;-webkit-border-radius:2px;-khtml-border-radius: 2px;}
+
+.pagination li.previous a,.pagination li.next a{font-family: "Ionicons";font-size: 24px; color:#5f6265;}
+
+.pagination li.previous.disabled a,.pagination li.next.disabled a{color: #d5d5d5;}
+
+.pagination li.first{display: none; border-radius: 2px 0 0 2px;-moz-border-radius:2px 0 0 2px;-webkit-border-radius:2px 0 0 2px;-khtml-border-radius: 2px 0 0 2px;}
+
+.pagination li.last{display: none; border-radius: 0 2px 2px 0;-moz-border-radius:0 2px 2px 0;-webkit-border-radius:0 2px 2px 0;-khtml-border-radius: 0 2px 2px 0;}
+
+.pagination li.tostart, .pagination li.tolast{
+	width: 80px;
+	font-size: 14px;
+	padding: 0px 10px;
+	text-align: center;
+	vertical-align: inherit;
+	line-height: 38px;
+	margin: 0 20px 0 20px;
+	cursor: pointer;
+}
+
+.no_active_pag, .no_active_pag:hover {
+color: #A3A5A5!important;
+border: 1px solid #D5D5D5!important;
+background: #F7F9F6!important;
+cursor: pointer;
+}
+
+.no_active_pag a{color: #A3A5A5!important;}
+.pagHovPrev{margin-top: 10px;display: block;}
+.pagination li.last.view {display: inline-block;}
+/*---------------pagination-and---------------*/

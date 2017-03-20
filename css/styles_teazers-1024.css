@@ -1,0 +1,48 @@
+/*//////////////////////////////////////////////////HEADER-TEAZERS//////////////////////////////////////////////*/
+@media screen and (max-width: 1024px){
+
+.h-teaz-link {margin: 0 25px;}
+    
+.h-teaz-link li a{display: block;padding: 0 0px;}
+
+.h-teaz-button{float: left;margin: 5px 15px 0;}
+
+.h-teaz-button a{}
+
+.act-men {
+	max-width: 73px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#ts-teaser-list td.tbl_link a, .tiz_soc_list_table a {
+	max-width: 200px!important;
+}
+
+.terms-popup {
+	width: 860px;
+	margin-left: -450px;
+}
+
+
+
+}
+
+/*//////////////////////////////////////////////////HEADER-TEAZERS-AND//////////////////////////////////////////////*/
+
+
+@media screen and (max-width: 900px){
+.terms-popup {
+	width: 100%;
+	margin: 0;
+	top: 0;
+	left: 0;
+	overflow: scroll;
+	height: 100%;
+	}
+.ov {
+	overflow-x: hidden;
+	height: 100%;
+	padding: 10px 20px 30px 0px;
+	}
+}

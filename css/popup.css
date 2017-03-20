@@ -1,0 +1,77 @@
+.popup-bg{
+	position: fixed;
+	top: 0; bottom: 0; left: 0; right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 999;
+}
+.popup-box{
+	width: 450px;
+	background: #fff;
+	box-shadow: 3px 3px 12px -3px #000;
+	border: 1px solid #D5D5D5;
+	border-radius: 3px;
+
+	font-size: 14px;
+
+	position: absolute;
+	top: 50%; left: 50%;
+	margin-left: -225px;
+}
+.popup-head h4{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	position: relative;
+	padding-right: 30px;
+}
+.ppclose{
+	position: absolute;
+	right: 6px; top: -1px;
+	cursor: pointer;
+}
+.ppclose:before {
+	content: "\f129";
+	font-family: "Ionicons";
+	color: #FFF;
+	font-size: 15px;
+	background: #E4E4E4;
+	padding: 6px 8px;
+	border-radius: 50%;
+	border: 2px solid;
+}
+.ppclose:hover:before{
+	background: #BABABA!important;
+}
+.popup-wrap{
+	padding: 20px;
+}
+.one-string{
+	margin-bottom: 10px;
+}
+.one-string:last-child{
+	margin-bottom: 0px;
+}
+input[type="text"], input[type=password] {
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   height: 31px;
+   line-height: 31px;
+   padding: 0 10px;
+}
+input:focus::-webkit-input-placeholder {color: transparent}
+input:focus::-moz-placeholder          {color: transparent}
+input:focus:-moz-placeholder           {color: transparent}
+input:focus:-ms-input-placeholder      {color: transparent}
+.popup-footer,
+.popup-head{
+	background: #F0F0F0;
+	height: 40px;
+	padding: 0 20px;
+	line-height: 40px;
+	position: relative;
+}
+
+.popup-footer{
+	height: 50px;
+	line-height: 50px;
+}

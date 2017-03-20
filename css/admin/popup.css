@@ -1,0 +1,25 @@
+.row .required{
+    position: relative;
+    top: -4px;
+  }
+  table td, table th {
+    padding: 0px 3px;
+  }
+  
+  .errorMessage :first{
+    margin:0;
+  }
+  .errorMessage {
+    margin-left: 125px;
+    color: red;
+    width: 250px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-align: left;
+    font-size: 12px;
+ }
+
+.errorMessage{
+    margin-left: 100px;
+    color: red;
+}

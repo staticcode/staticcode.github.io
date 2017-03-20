@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      "react-sticky@^2.5.2",
+      "/Applications/AMPPS/www/advancets"
+    ]
+  ],
+  "_from": "react-sticky@>=2.5.2 <3.0.0",
+  "_id": "react-sticky@2.5.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-sticky",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "email": "dbarbalato@gmail.com",
+    "name": "dbarbalato"
+  },
+  "_npmVersion": "2.5.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-sticky",
+    "raw": "react-sticky@^2.5.2",
+    "rawSpec": "^2.5.2",
+    "scope": null,
+    "spec": ">=2.5.2 <3.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-sticky/-/react-sticky-2.5.2.tgz",
+  "_shasum": "97e9f276dc4919296f7183172340af6b171528a2",
+  "_shrinkwrap": null,
+  "_spec": "react-sticky@^2.5.2",
+  "_where": "/Applications/AMPPS/www/advancets",
+  "author": {
+    "name": "Captivation Software"
+  },
+  "bugs": {
+    "url": "https://github.com/captivationsoftware/react-sticky/issues"
+  },
+  "contributors": [
+    {
+      "name": "Aaron Goin",
+      "email": "aarondgoin@gmail.com"
+    },
+    {
+      "name": "Alejandro Tardin",
+      "email": "alejandro@tardin.com"
+    },
+    {
+      "name": "Josh Carr",
+      "email": "joshcarr@gmail.com"
+    },
+    {
+      "name": "George Lifchits",
+      "email": "george.lifchits@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "description": "Sticky component for React",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "browserify": "^11.0.1",
+    "chai": "^3.2.0",
+    "jsdom": "3.x",
+    "lodash": "^3.10.1",
+    "minifyify": "^7.0.5",
+    "mocha": "^2.2.5"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "97e9f276dc4919296f7183172340af6b171528a2",
+    "tarball": "https://registry.npmjs.org/react-sticky/-/react-sticky-2.5.2.tgz"
+  },
+  "gitHead": "0c30b2f6530c66ef6367d8e4d35e512dc2631ca2",
+  "homepage": "https://github.com/captivationsoftware/react-sticky",
+  "keywords": [
+    "React",
+    "Sticky",
+    "react-component"
+  ],
+  "license": "MIT",
+  "main": "./lib/sticky",
+  "maintainers": [
+    {
+      "name": "dbarbalato",
+      "email": "dbarbalato@gmail.com"
+    }
+  ],
+  "name": "react-sticky",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": "0.x"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captivationsoftware/react-sticky.git"
+  },
+  "scripts": {
+    "prepublish": "browserify --external react -p [minifyify --map sticky.js.map --output ./dist/sticky.js.map --uglify --compress --dead_code--comparisons 0 ] -s Sticky ./lib/sticky.js --debug > ./dist/sticky.min.js",
+    "test": "mocha --compilers js:babel/register"
+  },
+  "version": "2.5.2"
+}
